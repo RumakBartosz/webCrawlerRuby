@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+  gem "nokogiri"
+  gem "dbi"
+  gem "dbd-mysql"
+  gem "rubysl-resolv"
+  gem "mechanize"
+  gem "web-socket-ruby"
+  gem "uri-handler"
