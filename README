@@ -1,1 +1,17 @@
- 
+Prerekwizyty:
+MySQL, ruby, bundler, baza danych o dowolnej nazwie z polami domena, ip, polaczenie.
+
+1. wchodzimy do folderu projektu, uruchamiamy polecenie - bundle install
+2. wchodzimy do folderu Crawler i uruchamiamy crawl.rb
+
+ARGV 1 = strona ktora przechodzimy
+ARGV 2 = nazwa bazy
+ARGV 3 = user bazy
+ARGV 4 = haslo usera bazy
+ARGV 5 = rozpietosc drzewa
+ARGV 6 = glebokosc drzewa
+
+
+Use case:
+
+ruby crawl.rb https://www.reddit.com crawl root password 500 100
